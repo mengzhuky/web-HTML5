@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>信息统计系统</title>
+	</head>
+	<body>
+		<center>
+			<table border="1">
+				<!-- <center居中>   <table表格  border边框 为1>-->
+				<td colspan="5" align="center">
+					<!--<td列表 colspan="5"合并5列单元格 align="center"对齐方式居中 >-->
+					<b>信&nbsp;&nbsp;&nbsp;&nbsp;息&nbsp;&nbsp;&nbsp;&nbsp;统&nbsp;&nbsp;&nbsp;&nbsp;计&nbsp;&nbsp;&nbsp;&nbsp;表</b>
+					<!--<b定义粗体文本> &nbsp;不断行的空格 -->
+				</td>
+
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td>姓名：&nbsp;&nbsp;&nbsp;&nbsp;</td><!-- <td>定义表格的列 &nbsp;不断行的空格 -->
+					<td><input type="text" name="userName"></td>
+					<!-- <input输入框 type="text"输入框类型 文本类型 name="userName" 文本框的名字 -->
+				</tr>
+				<tr>
+					<td>年龄：</td><!-- <td>定义表格的列 -->
+					<td><input type="text" name="userage"></td>
+					<!-- <td>定义表格的列  <input输入框 type="text"输入框类型 文本类型 name="userName" 输入框的名字-->
+				</tr>
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td>性别：</td><!-- <td>定义表格的列 -->
+					<td><input type="radio" name="sex" value="1">男
+						<!-- <td>定义表格的列  <input输入框 type="type"输入框类型 单选框选项 name="sex" 输入框的名字 value="1"值为1-->
+						<input type="radio" name="sex" value="0">女
+						<!-- <input输入框 type="type"输入框类型 单选框选项 name="sex" 输入框的名字 value="0"值为0-->
+					</td>
+				</tr>
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td>爱好：</td><!-- <td>定义表格的列 -->
+					<td>
+						<input type="checkbox" name="hobby" value="1">旅游<br>
+						<!-- <td>定义表格的列 <input输入框 type="checkbox"输入框类型 复选框 name="sex" 输入框的名字 性别  alue="1"值为1 <br>换行 -->
+						<input type="checkbox" name="hobby" value="2">登山<br>
+						<!--<input输入框 type="checkbox"输入框类型 复选框 name="sex" 输入框的名字 性别  value="2"值为2 <br>换行 -->
+						<input type="checkbox" name="hobby" value="3">健身<br>
+						<!--<input输入框 type="checkbox"输入框类型 复选框 name="sex" 输入框的名字 性别  value="3"值为3 <br>换行 -->
+						<input type="checkbox" name="hobby" value="4">上网<br>
+						<!--<input输入框 type="checkbox"输入框类型 复选框 name="sex" 输入框的名字 性别  value="4"值为4 <br>换行 -->
+						<input type="checkbox" name="hobby" value="5">游泳
+						<!-- <td>定义表格的列 -->
+					</td>
+				</tr>
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td>学历：</td>
+					<!--<td>定义表格的列 -->
+					<td>
+						<!-- <td>定义表格的列 -->
+						<select name="degree">
+							<!-- <select 选择框 name="degree"名字是 程度 > -->
+							<option value="">--请选择--</option><!-- <ootion 可选框 value=""值是空> -->
+							<option value="1">大专</option><!-- <ootion 可选框 value="1"值是1> -->
+							<option value="2">本科</option><!-- <ootion 可选框 value="2"值是2> -->
+							<option value="3">研究生</option><!-- <ootion 可选框 value="3"值是3> -->
+							<option value="4">博士及以上</option><!-- <ootion 可选框 value="4"值是4> -->
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td>
+						<h4><b>自我介绍：</b></h4>
+					</td><!-- <td>定义表格的列 <h4>文本大小 <b>文本加粗 -->
+					<td>
+						<textarea rows="5" cols="18">自我介绍：
+			</textarea>
+						<!--<textarea 文本框 rows="5" 文本框所占行高 cols="18" 每列可输入的文本字数> -->
+					</td>
+				</tr>
+				<tr>
+					<!--<tr>定义表格的行 -->
+					<td></td><!-- <td>定义表格的列 -->
+					<td>
+						<!-- <td>定义表格的列 -->
+						<input type="submit" value="提交" />&nbsp;&nbsp;&nbsp;&nbsp;
+						<!--<input输入框 type="submit"输入框类型 提交按钮 value="提交" 值为提交> &nbsp;空格不换行-->
+						<input type="reset" value="重置" />&nbsp;&nbsp;&nbsp;&nbsp;
+						<!--<input输入框 type="submit"输入框类型 还原按钮 value="重置" 值为重置> &nbsp;空格不换行-->
+						<input type="button" value="返回" />&nbsp;&nbsp;&nbsp;&nbsp;
+						<!--<input输入框 type="submit"输入框类型 取消按钮 value="提交" 值为返回> &nbsp;空格不换行-->
+					</td>
+				</tr>
+			</table>
+		</center>
+
+	</body>
+</html>
